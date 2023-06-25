@@ -1,0 +1,219 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hoover {
+    color: rgb(218, 64, 218);
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    color: white;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
+
+
+.featured {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    padding: 15px;
+}
+
+input {
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+form {
+    padding-left: 20px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(12, 79, 156);
+    border: 3px solid lightgray;
+    border-radius: 5px; 
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 10px;
+}
+
+.box {
+    max-width: 300px;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.grid-image {
+    object-fit: fixed;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50px 0 50px 0;
+}
+
+.yoga-hours {
+    color: black;
+    margin-top: 5%;
+}
+
+.hour-container {
+    background-color: aqua;
+    padding: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.about-container {
+    padding-top: 70px;
+    /* padding-left: 120px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: solid rgb(0, 255, 106) 3px;
+    background-color: peachpuff;
+}
+
+.benefit-container {
+    border: solid purple 3px;
+    border-width: 50px;
+}
+
+.gallery {
+    text-align: center;
+    padding-top: 50px;
+}
